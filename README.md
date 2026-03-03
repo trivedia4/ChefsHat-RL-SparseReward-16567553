@@ -118,7 +118,6 @@ git clone https://github.com/YOUR_USERNAME/ChefsHat-RL-SparseReward-16567553
 Open the notebook in Google Colab with GPU enabled and run all cells sequentially.
 
 
-
 ## 9. Video Viva
 
 Task 2 Viva Video:
@@ -135,6 +134,24 @@ ChatGPT was used to:
 * Assist in structuring code experiments
 * Clarify reinforcement learning concepts
 * Improve documentation structure
+
+## Experimental Results and Analysis
+
+Two experiments were conducted under the Sparse / Delayed Reward variant:
+
+1. Original delayed match reward
+2. Reward-shaped modification
+
+The DQN agent was trained for 100 matches and evaluated over 100 test matches against three Random baseline agents.
+
+Results:
+- Original Reward Win Rate: 0.22 (22%)
+- Shaped Reward Win Rate: 0.14 (14%)
+
+In a four-player competitive setting, random performance expectation is approximately 25%. The DQN agent achieved performance close to this baseline under the original delayed reward configuration.
+Interestingly, reward shaping did not improve performance. This suggests that naive reward modification may distort learning signals rather than enhance credit assignment. The results highlight the sensitivity of reinforcement learning agents to reward design in sparse, delayed-reward multi-agent environments.
+This experiment demonstrates the importance of careful reward engineering and critical evaluation when designing reinforcement learning systems.
+
 
 All code implementation decisions were reviewed, modified, tested, and validated manually. All experimental results were generated independently by running the environment in Google Colab.
 
