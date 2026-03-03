@@ -1,8 +1,0 @@
-Comparison Summary
--------------------
-Original Reward Win Rate: 0.22
-Shaped Reward Win Rate: 0.14
-
-Conclusion:
-Original delayed reward performed better in this setup.
-Reward shaping did not improve performance under current configuration.
