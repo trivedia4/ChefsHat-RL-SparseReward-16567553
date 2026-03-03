@@ -150,15 +150,8 @@ Run:
 
 ```
 Task2_Variant6_Gen_Ai_Aug.ipynb
-```
 
----
 
-## 🔟 Video Demonstration
-
-(Insert your Panopto / YouTube link here)
-
----
 
 ## Conclusion
 
