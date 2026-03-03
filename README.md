@@ -1,11 +1,10 @@
-2## 📌 Student Information
+
 
 **Module:** 7043SCN – Generative AI
 **Assessment:** Chef’s_Hat_Gym-Sparse/Delayed Reward Variant
 **Student ID:** 16567553
-**Selected Variant(s):** Variant 2 (Sparse/Delayed Reward) & Variant 6 (Generative AI Augmentation)
+**Selected Variant(s):** Variant 2 (Sparse/Delayed Reward) 
 
----
 
 ## 1️⃣ Project Overview
 
@@ -14,7 +13,6 @@ This project implements and evaluates reinforcement learning agents within the C
 Two experimental variants were implemented:
 
 * **Variant 2:** Learning under sparse and delayed reward conditions using REINFORCE.
-* **Variant 6:** Generative AI augmentation using Behaviour Cloning from high-performing trajectories.
 
 The aim is to analyse learning performance, stability, and effectiveness of generative policy priors compared to a random baseline.
 
@@ -105,13 +103,12 @@ This acts as a generative policy prior that biases exploration towards stronger 
 
 ## 6️⃣ Results Summary
 
-| Agent           | Mean Performance | Std Dev |
-| --------------- | ---------------- | ------- |
-| Random Baseline | X.XX             | X.XX    |
-| REINFORCE       | X.XX             | X.XX    |
-| Gen-Aug         | X.XX             | X.XX    |
+| Agent            | Mean Performance | Std Dev |
+|------------------|------------------|----------|
+| Random Baseline  | 0.2564           | 0.2104   |
+| REINFORCE        | 0.7283           | —        |
+| Gen-Aug          | 0.5377           | 0.4948   |
 
-(Replace X.XX with actual results from results.json)
 
 ---
 
@@ -172,7 +169,7 @@ This project demonstrates:
 * Empirical comparison and structured evaluation.
 * Critical reflection on reinforcement learning challenges.
 
----
+
 
 
 
